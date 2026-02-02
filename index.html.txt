@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Chi Tiêu Cá Nhân Thông Minh – Vintage Tết</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1 class="title">🌼 Kế Hoạch Chi Tiêu Cá Nhân Thông Minh – Tết Vintage 2025</h1>
+    <p class="desc">
+        Nhập **thu nhập**, **tuổi**, **nghề nghiệp** → Hệ thống AI gợi ý mức chi tiêu phù hợp, rõ ràng, sát thực tế và không bao giờ bị lẻ tiền.
+    </p>
+
+    <div class="input-box">
+        <label>💰 Thu nhập (VNĐ):</label>
+        <input type="number" id="income" placeholder="VD: 5000000">
+
+        <label>🎂 Tuổi:</label>
+        <input type="number" id="age" placeholder="VD: 17">
+
+        <label>🧑‍💼 Nghề nghiệp:</label>
+        <select id="job">
+            <option value="student">Học sinh</option>
+            <option value="worker">Người đi làm</option>
+            <option value="elder">Người lớn tuổi</option>
+        </select>
+
+        <button onclick="generatePlan()">Tạo kế hoạch chi tiêu</button>
+    </div>
+
+    <h2 class="plan-title">📋 Kế Hoạch Chi Tiêu</h2>
+    <div id="plan"></div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
